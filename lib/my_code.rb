@@ -14,5 +14,5 @@ def reduce(array, sum = 0)
     sum = yield(sum, array[i])
     i += 1 
   end 
-  return sum  
+  sum  
 end 

@@ -15,5 +15,4 @@ def reduce(array, sum = 0)
     i += 1 
   end 
   sum 
-  true
 end 

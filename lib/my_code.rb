@@ -8,9 +8,8 @@ def map(array)
   new 
 end 
 
-def reduce(array) 
+def reduce(array, sum = 0) 
   i = 0 
-  sum = 0 
   while i < array.length do 
     sum = yield(sum, array[i])
     i += 1 

@@ -8,6 +8,6 @@ def map(array)
   new 
 end 
 
-def my_own_reduce 
+def reduce 
   
 end 

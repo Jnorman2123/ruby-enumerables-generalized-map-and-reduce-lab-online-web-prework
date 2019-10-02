@@ -7,3 +7,7 @@ def map(array)
   end
   new 
 end 
+
+def my_own_reduce 
+  
+end 

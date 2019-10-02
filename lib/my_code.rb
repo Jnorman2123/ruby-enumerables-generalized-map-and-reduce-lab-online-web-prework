@@ -8,8 +8,14 @@ def map(array)
   new 
 end 
 
-def reduce(array, sum = 0) 
-  i = 0 
+def reduce(array, sv = nil) 
+  if sv
+    sum = 0 
+    i = 0 
+  else 
+    sum = array[0]
+    i = 1 
+  end 
   while i < array.length do 
     sum = yield(sum, array[i])
     i += 1 
